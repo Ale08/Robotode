@@ -50,6 +50,7 @@ class MyRobot(wpilib.TimedRobot):
 
                 self.lift_motor1.set(0.5)
                 self.lift_motor2.set(0.5)
+                print("kk")
               
             elif state["auto_timer"] <= 150: 
             
